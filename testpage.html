@@ -3,6 +3,18 @@
   <head>
     <script src="https://unpkg.com/github-api/dist/GitHub.bundle.min.js"></script>
     <title>Basilisk Test</title>
+    <style>
+      .block {
+        display: block;
+        width: 100%;
+        border: none;
+        background-color: #4CAF50;
+        padding: 14px 28px;
+        font-size: 16px;
+        cursor: pointer;
+        text-align: center;
+      }
+    </style>
   </head>
   <body>
 
@@ -12,7 +24,7 @@
     <div id="textbox" style="height: 50px;"></div>
     <br>
     
-    <button id="startbutton" onclick="start()">Start test</button>
+    <button id="startbutton" onclick="start()" class="block">Start test</button>
     <div id="over" style="display: none;">
     buttons go here
     </div>
@@ -38,13 +50,14 @@
         var normal = false;
       }
       document.getElementById("textbox").innerHTML = face;
-      window.setTimeout(finish, 150);
+      window.setTimeout(finish, 75);
+      document.getElementById("over").style = "display: inline";
     }
     
     function finish() {
       
       document.getElementById("textbox").innerHTML = "";
-      document.getElementById("over").style = "display: inline";
+      
     }
   </script>
   
