@@ -15,3 +15,9 @@ We'll record the response you give with relation to what you were actually given
 Well, pfft... thanks for doing our little test I guess. If you can **share** this project with other people, that would be much appreciated.
 
 [Go to the test](testpage.html)
+
+## Why Basilisk?
+
+Our naming inspiration comes from [XKCD](https://xkcd.com/380/):  
+
+![](https://imgs.xkcd.com/comics/emoticon.png)   
