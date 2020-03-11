@@ -12,21 +12,36 @@
     <br>
     
     <button id="startbutton" onclick="start()">Start test</button>
+    <div id="over" display="none">
+    yada
+    </div>
 
   </body>
   <script>
     function start () {
       document.getElementById("startbutton").disabled = true;
       var f = Math.floor(Math.random() * 4);
+      var smiley = true;
+      var normal = true;
       var face = ":)";
       if (f == 1) {
         face = "(:";
+        var normal = false;
       } else if (f == 2) {
         face = ":(";
+        smiley = false;
       } else if (f == 3) {
         face = "):";
+        smiley = false;
+        var normal = false;
       }
       document.getElementById("textbox").innerHTML = face;
+      setTimeout(finish(), 1000);
+    }
+    
+    function finish() {
+      document.getElementById("textbox").innerHTML = "";
+      document.getElementById("over").display = "block";
     }
   </script>
 </html>
