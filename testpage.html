@@ -20,6 +20,7 @@
   </body>
   <script>
     function start () {
+      alert("starts");
       document.getElementById("startbutton").disabled = true;
       var f = Math.floor(Math.random() * 4);
       var smiley = true;
@@ -37,10 +38,11 @@
         var normal = false;
       }
       document.getElementById("textbox").innerHTML = face;
-      setTimeout(finish(), 1000);
+      setTimeout(finish(), 10000);
     }
     
     function finish() {
+      alert("finish");
       document.getElementById("textbox").innerHTML = "";
       document.getElementById("over").style = "display: inline";
     }
