@@ -14,7 +14,7 @@
     
     <button id="startbutton" onclick="start()">Start test</button>
     <div id="over" style="display: none;">
-    yada
+    buttons go here
     </div>
 
   </body>
@@ -38,7 +38,7 @@
         var normal = false;
       }
       document.getElementById("textbox").innerHTML = face;
-      setTimeout(finish(), 10000);
+      window.setTimeout(finish, 10000);
     }
     
     function finish() {
