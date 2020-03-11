@@ -1,37 +1,15 @@
-## Welcome to GitHub Pages
+## Welcome to the project
 
-You can use the [editor on GitHub](https://github.com/JkyProgrammer/the-basilisk/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+So basically, me and a friend got kinda bored in a German lesson and started wondering about the way we percieve face patterns in text. I can't tell you more because that might skew the test. 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+# How it works
 
-### Markdown
+You will be shown a textual representation of a face for a fraction of a second, so **don't miss it**. Then, all you have to do is tap the button at the bottom of the screeen, depending on whether you thought the face was happy or sad. _You can do the test as many times as you like, if you feel like giving us more data to work with._
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+# What will happen
 
-```markdown
-Syntax highlighted code block
+We'll record the response you give with relation to what you were actually given. _Hopefully we'll have a results page?_
 
-# Header 1
-## Header 2
-### Header 3
+# Anything else?
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/JkyProgrammer/the-basilisk/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Well, pfft... thanks for doing our little test I guess. If you can **share** this project with other people, that would be much appreciated.
