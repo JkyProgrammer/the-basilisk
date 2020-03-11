@@ -9,23 +9,24 @@
     <p id="subtext">Watch carefully!</p>
     <br>
     <div id="textbox" style="height: 50px;"></div>
+    <br>
     
     <button id="startbutton" onclick="start()">Start test</button>
 
   </body>
   <script>
     function start () {
-      var f = Math.floor(Math.random() * 4)
-      var face = ":)"
+      document.getElementById("startbutton").disabled = true;
+      var f = Math.floor(Math.random() * 4);
+      var face = ":)";
       if (f == 1) {
-        face = "(:"
+        face = "(:";
       } else if (f == 2) {
-        face = ":("
+        face = ":(";
       } else if (f == 3) {
-        face = "):"
+        face = "):";
       }
-      document.getElementById("textbox").innerHTML = face
-      document.getElementById("startbutton").remove()
+      document.getElementById("textbox").innerHTML = face;
     }
   </script>
 </html>
