@@ -7,9 +7,14 @@
 
     <h1 id="textbox">Ready?</h1>
     <p id="subtext">Watch carefully!</p>
+    
+    <button id="startbutton" onclick="start()">Start test</button>
 
   </body>
   <script>
-    document.getElementById("textbox").innerHTML = ":)"
+    function start () {
+      document.getElementById("textbox").innerHTML = ":)"
+      document.getElementById("startbutton").remove()
+    }
   </script>
 </html>
